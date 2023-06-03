@@ -1,0 +1,91 @@
+
+body{
+    background-color: white;
+    color: black;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+.navbar {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw 2vw;
+    margin-top: 0;
+    top: 0;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 90px;
+}
+.nav-item:hover{
+    border-bottom: 2px solid orange;
+}
+.intro{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+}
+h1{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+}
+button{
+    height: 60px;
+    width: 90px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    transition: all 500ms;
+    transition-timing-function:ease-out;
+}
+button:hover{
+    background-color: orange;
+}
+.line{
+    height: 2px;
+    width: 45px;
+    background-color: aqua;
+    margin: auto;
+}
+.about,.front-end{
+    text-align: center;
+}
+.container2,.container3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.card img:hover{
+    transform: translateY(-30px);
+}
+.card button{
+    height: 40px;
+    width: 125px;
+}
+.container3 img:hover{
+    transform: translateY(-30px);
+}
+footer{
+    background-color: gray;
+    height: 120px;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+}
